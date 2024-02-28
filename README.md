@@ -6,6 +6,8 @@ Our first edit! - Mike
 
 Nice work Mike! - Sarah
 
+Hi everyone! Look forward to working with you! - Dafeng
+
 ## Our Project
 [Provide a brief overview of your project here.
 
