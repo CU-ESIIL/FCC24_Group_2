@@ -4,6 +4,8 @@ Welcome to the **[Your Team Name]** repository, an integral part of ESIIL and Ea
 
 Our first edit! - Mike
 
+Nice work Mike! - Sarah
+
 ## Our Project
 [Provide a brief overview of your project here.
 
