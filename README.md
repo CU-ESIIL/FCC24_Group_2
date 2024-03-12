@@ -11,7 +11,10 @@ Hi everyone! Look forward to working with you! - Dafeng
 Same -Len
 
 ## Our Project
-[Provide a brief overview of your project here.
+Rough plan at the end of Tuesday (please edit/update!):
+ - Develop a tree canopy height model using LANDSAT trained on GEDI (led by Len)
+ - In specific spatial focus areas, overlay other datasets to understand their relationships with tree canopy height.
+   - Mike is going to work on loading the LANDFIRE disturbance data
 
 ## Documentation
 - Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).
