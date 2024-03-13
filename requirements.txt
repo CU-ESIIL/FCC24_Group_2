@@ -12,6 +12,7 @@ rioxarray
 requests
 aiohttp
 
+black
 bump2version
 coverage
 flake8
