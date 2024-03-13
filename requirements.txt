@@ -11,6 +11,8 @@ mapclassify
 rioxarray
 requests
 aiohttp
+geogif
+zarr
 
 black
 bump2version
