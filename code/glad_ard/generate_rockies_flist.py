@@ -12,17 +12,16 @@ ECO_REGION = "Southern Rockies"
 
 def main():
     # read eco region and write to file
-    eco_regions = gpd.read_file("zip://" + "us_eco_l3.zip")
-    southern_rockies = eco_regions[eco_regions["US_L3NAME"] == ECO_REGION]
-    southern_rockies = southern_rockies.to_crs("EPSG:4326")
-    southern_rockies.to_file("/data-store/output/eco_region.geojson", driver="GeoJSON")
+    southern_rockies = gpd.read_file("/data-store/output/eco_region.geojson", driver="GeoJSON")
 
     # get ard tiles that intersect the ecoregion
     ard_tiles = gpd.read_file(
         "https://glad.umd.edu/users/Potapov/ARD/Global_ARD_tiles.zip"
     )
     relevant_ard_tiles = ard_tiles.clip(southern_rockies)
-    tiles = relevant_ard_tiles["TILE"].unique()
+
+    # let's stick with this single tile for now
+    tiles = ["105W_39N"]
 
     # use the ard time codes to general all codes for the year ranges
     start_codes = np.cumsum(np.repeat(23, END_YEAR - START_YEAR + 1)) + 392 - 23
@@ -48,7 +47,7 @@ def main():
 
     ard_assets = pd.DataFrame(rows, columns=["tile", "year", "16-day-code", "url"])
     print("saving to flist.txt")
-    ard_assets.iloc[:100]["url"].to_csv("flist.txt", index=False, header=False)
+    ard_assets["url"].to_csv("flist.txt", index=False, header=False)
 
 
 if __name__ == "__main__":
