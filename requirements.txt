@@ -1,3 +1,17 @@
+matplotlib
+numpy
+xarray
+dask[complete]
+geopandas 
+shapely
+ipykernel
+folium
+matplotlib
+mapclassify
+rioxarray
+requests
+aiohttp
+
 bump2version
 coverage
 flake8
