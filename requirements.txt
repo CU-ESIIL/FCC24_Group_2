@@ -15,6 +15,7 @@ geogif
 zarr
 xgboost
 sklearn
+seaborn
 
 black
 bump2version
