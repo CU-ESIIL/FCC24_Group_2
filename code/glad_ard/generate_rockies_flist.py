@@ -12,7 +12,9 @@ ECO_REGION = "Southern Rockies"
 
 def main():
     # read eco region and write to file
-    southern_rockies = gpd.read_file("/data-store/output/eco_region.geojson", driver="GeoJSON")
+    southern_rockies = gpd.read_file(
+        "/data-store/output/eco_region.geojson", driver="GeoJSON"
+    )
 
     # get ard tiles that intersect the ecoregion
     ard_tiles = gpd.read_file(
