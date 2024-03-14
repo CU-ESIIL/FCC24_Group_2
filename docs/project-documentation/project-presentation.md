@@ -32,7 +32,7 @@ However, given 16 day intervals from 1997-2023, that is roughly 23 periods * 26 
 ### GLAD ARD
 This dataset is "analysis ready" except for any temporal composition and quality flag masking. To keep things simple, we apply the clear-sky land flag (as described in the GLAD-ARD paper) and simple median composition to general annual mosaics. Below we have a gif of the Red, Blue and Green bands from 1997-2023:
 
-![GLAD-ARD](../assets/presentation_assets/annual_glad_ard.gif)
+![GLAD-ARD](../assets/presentation_assets/ard.gif)
 
 This might not seems very temporally consistent, but this looks fairly decent given the simplicity of the approach. 
 
