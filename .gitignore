@@ -48,3 +48,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+code/glad_ard/data/*
+code/glad_ard/*.zarr
+coda/data/*.zarr
