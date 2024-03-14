@@ -75,6 +75,7 @@ We can immediately see that there is no data in X that is significantly out of d
 
 ## Follow Up Work
 Briefly, items to investigate include:
+
 - better quality flag application for both GLAD and GEDI
 - high temporal resolution modeling like quarterly or monthly
 - including other covariates like environmental variables, slope, eco-region, etc
