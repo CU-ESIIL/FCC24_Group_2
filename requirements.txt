@@ -13,6 +13,8 @@ requests
 aiohttp
 geogif
 zarr
+xgboost
+sklearn
 
 black
 bump2version
